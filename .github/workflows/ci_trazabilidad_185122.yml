@@ -11,6 +11,6 @@ on:
 
 jobs:
   ejecutar-agente:
-    uses: ./.github/workflows/agente_trazabilidad.yaml
+    uses: ./.github/workflows/agente_trazabilidad_185122.yaml
     with:
       evento_json: ${{ inputs.evento_json }}
